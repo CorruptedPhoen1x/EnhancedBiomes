@@ -1,6 +1,7 @@
 package com.phoen1x.enhancedbiomes.item;
 
 import com.phoen1x.enhancedbiomes.EnhancedBiomes;
+import com.phoen1x.enhancedbiomes.item.custom.ModArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -20,7 +21,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ENHANCEDOCEANS_TAB)));
 
     public static final RegistryObject<Item> PRISMARINEHELMET = ITEMS.register("prismarine_helmet",
-            () -> new ArmorItem(ModArmorMaterials.PRISMARINE, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.PRISMARINE, EquipmentSlot.HEAD,
                   new Item.Properties().tab(ModCreativeModeTab.ENHANCEDOCEANS_TAB)));
     public static final RegistryObject<Item> PRISMARINECHESTPLATE = ITEMS.register("prismarine_chestplate",
             () -> new ArmorItem(ModArmorMaterials.PRISMARINE, EquipmentSlot.CHEST,
