@@ -1,4 +1,11 @@
 {
   "item.enhancedbiomes.prismarine_sheet": "Prismarine Sheet",
-  "item.enhancedbiomes.pearl": "Pearl"
+  "item.enhancedbiomes.pearl": "Pearl",
+  "item.enhancedbiomes.prismarine_helmet": "Prismarine Helmet",
+  "item.enhancedbiomes.prismarine_chestplate": "Prismarine Chestplate",
+  "item.enhancedbiomes.prismarine_leggings": "Prismarine Leggings",
+  "item.enhancedbiomes.prismarine_boots": "Prismarine Boots",
+
+
+  "itemGroup.enhancedoceanstab": "Enhanced Oceans"
 }
