@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> PRISMARINESHEET = ITEMS.register("prismarine_sheet",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> PEARL = ITEMS.register("pearl",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
     public static void register(IEventBus eventBus) {
 
         ITEMS.register(eventBus);
